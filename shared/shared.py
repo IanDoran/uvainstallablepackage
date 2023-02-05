@@ -20,3 +20,6 @@ def space_compress(stocomp):
     assert isinstance(stocomp, str), "Expected str but got {} instead".format(type(stocomp))
     comp = re.sub(r'\s+', ' ', stocomp)
     return comp.strip()
+
+def new_function():
+    print("This is a function that demonstrates the ability to rev the library and add new functionality.")
